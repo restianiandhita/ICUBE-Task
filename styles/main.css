@@ -1,0 +1,110 @@
+/*Header*/
+
+.navbar {
+    padding-left: 2vmin;
+    padding-right: 2vmin;
+    position: sticky;
+    justify-content: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    font-size: 5vmin;
+}
+
+.nav-item{
+    display: flex;
+    font-size: 2.3vmin;
+    color: white;
+}
+
+.searchBar{
+    float: right;
+}
+
+/*Body*/
+
+.main {
+    width: 100%;
+    padding-left: 7vmin;
+    padding-right: 7vmin;
+    padding-top: 5vmin;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: wheat;
+    text-align: center;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main-page-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card {
+    width: 18rem;
+    margin-top: 4vmin;
+    border-radius: 1vmin;
+}
+
+.card-newrecipe {
+    width: 20rem;
+    border-radius: 1vmin;
+    height:fit-content;
+}
+
+.card-details{
+    width: 65rem;
+    border-radius: 1vmin;
+    text-align: left;
+}
+
+.card-details-title {
+    text-align: left;
+}
+
+.card-details-text {
+    text-align: left;
+    width: fit-content;
+    padding-right: 4vmin;
+}
+
+.card-details-text-a {
+    text-align: left;
+
+}
+
+.category {
+    width: 100%;
+    padding: 7vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: wheat;
+}
+
+/*Footer*/
+
+.footer {
+    height: 4%;
+    text-align: center;
+    padding-top: 1vmin;
+}
